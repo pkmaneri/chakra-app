@@ -22,10 +22,10 @@ function Header() {
                 <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
                     <Text fontSize="5xl" fontWeight="semibold">Hi, I am</Text>
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Praveen Kumar</Text>
-                    <Text color={isDark ? "gray.200" : "gray.500"}>GDE - Flutter, Firebase. Founder of https://praveen.dev & https://velocityx.dev.
-              Building @frontierdotxyz, YouTuber & Entrepreneur 🗣</Text>
+                    <Text color={isDark ? "gray.200" : "gray.500"}>GDE - Flutter, Firebase. Founder of https:https://github.com/pkmaneri
+                        Building @frontierdotxyz, YouTuber & Entrepreneur 🗣</Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
-                        window.open("praveen.jpg")
+                        window.open("https://github.com/pkmaneri")
                     }>Hire Me</Button>
 
                 </Box>
